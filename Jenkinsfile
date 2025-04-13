@@ -3,7 +3,6 @@ agent any
 stages {
 stage('Clone') {
 steps {
-
 git branch: 'main', url: 'https://github.com/richardigwegbu1/jenkins-cicd-demo.git'
 }
 }
