@@ -3,7 +3,7 @@ agent any
 stages {
 stage('Clone') {
 steps {
-git 'https://github.com/YOUR_USERNAME/jenkins-cicd-demo.git'
+git 'https://github.com/richardigwegbu1/jenkins-cicd-demo.git'
 }
 }
 stage('Install Dependencies') {
